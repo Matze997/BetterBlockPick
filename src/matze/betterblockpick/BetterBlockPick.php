@@ -53,6 +53,8 @@ class BetterBlockPick extends PluginBase implements Listener {
 
         if($event->isCancelled()) return false;
 
+        $item = $event->getResultItem();
+
         switch ($player->getGamemode()) {
             case Player::CREATIVE: {
                 if(!$inventory->contains($item)){

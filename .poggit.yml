@@ -5,5 +5,5 @@ branches:
 projects:
   BetterBlockPick:
     path: /
-    icon: /
+    icon: "icon.png"
 ...

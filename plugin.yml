@@ -1,6 +1,6 @@
 name: BetterBlockPick
-version: 1.0
+version: 1.1
 api: 3.0.0
 main: matze\betterblockpick\BetterBlockPick
-mcpe-protocol: 408
+mcpe-protocol: [408,419,422,428,431]
 author: Matze
